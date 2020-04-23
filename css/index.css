@@ -217,7 +217,7 @@ article .cup-J_cup .Top-J_Top
 .cup-J_cup-Top-J_Top-center 
 .J_Top-center-center{
     height: 4rem;
-    width: 55.6rem;
+    width: 63rem;
     background-color: skyblue;
 
     border-top-left-radius: 50%;
@@ -225,16 +225,55 @@ article .cup-J_cup .Top-J_Top
 }
 
 article .cup-J_cup .Top-J_Top
-.cup-J_cup-Top-J_Top-center 
+.cup-J_cup-Top-J_Top-center form
 .J_Top-center-center input{
-    width: 100%;
+    width: 55.6rem;
     height: 100%;
     float: left;
 
     border-top-left-radius: 4rem;
     border-bottom-left-radius: 4rem;
+    border: 0.2rem solid #ff5000;
+    border-right-color: #ff9000;
 
     padding: 0.6rem 0;
+    padding-left: 1.5rem;
+}
+
+article .cup-J_cup .Top-J_Top
+.cup-J_cup-Top-J_Top-center 
+.J_Top-center-center form
+.J_Top-center-center-right{
+    float: right;
+}
+
+article .cup-J_cup .Top-J_Top
+.cup-J_cup-Top-J_Top-center 
+.J_Top-center-center .J_Top-center-center-right
+input.button{
+    background-color: #FF4200;
+
+    /* 设置渐变色 */
+    background-image: linear-gradient(to right,#ff9000 0,#ff5000 100%);
+
+    border-radius: 0 3.7rem 3.7rem 0;
+    width: 7.4rem;
+    height: 4rem;
+
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 700;
+    border: none;
+
+    text-align: center;
+    padding: 0.5rem; /* 设置字体位置 */
+}
+
+article .cup-J_cup .Top-J_Top
+.cup-J_cup-Top-J_Top-center 
+.J_Top-center-center .J_Top-center-center-right
+input.button:hover{
+    cursor: pointer;
 }
 
 article .cup-J_cup .Top-J_Top
@@ -274,14 +313,45 @@ article .cup-J_cup .Top-J_Top .Top-J_Top-right{
     background-color: skyblue;
     height: 8.8rem;
     width: 7.6rem;
+    float: right;
     position: relative;
-    right: 0;
-    bottom: 0;
-    z-index: 999;
+    top: -8.8rem;
+    right: 7%;
+    text-align: center;/* 让子盒子行内标签水平居中 */
+
+
+    border: 0.1rem solid #eee;
+}
+
+article .cup-J_cup .Top-J_Top .Top-J_Top-right a{
+    text-align: center;
+}
+
+article .cup-J_cup .Top-J_Top .Top-J_Top-right a span.top{
+    color: #ff5000;
+    font-size: 1.2rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+    position: absolute;
+    top: -35%;
+    left: 20%;
+}
+
+article .cup-J_cup .Top-J_Top .Top-J_Top-right
+a span.top:hover{
+    cursor: pointer;
 }
 
 article .cup-J_cup .Top-J_Top a.taobao_index img{
     width: 6.2rem;
     height: 6.2rem;
+
+    position: absolute;
+    bottom: 0.4rem;
+    left: 0.7rem;
 }
 /************************身体-end*****************************/
