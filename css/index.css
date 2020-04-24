@@ -301,15 +301,19 @@ article .cup-J_cup .Top-J_Top
 
 article .cup-J_cup .Top-J_Top
 .cup-J_cup-Top-J_Top-center 
-.J_Top-center-center form
+.J_Top-center-center 
 .J_Top-center-center-right{
+    background-color: white;
+    height: 100%;
+    width: 7.4rem;
     float: right;
+    position: relative;
 }
 
 article .cup-J_cup .Top-J_Top
 .cup-J_cup-Top-J_Top-center 
 .J_Top-center-center .J_Top-center-center-right
-input.button{
+.button{
     background-color: #FF4200;
 
     /* 设置渐变色 */
@@ -325,7 +329,10 @@ input.button{
     border: none;
 
     text-align: center;  
-    /* padding: 2rem; 设置字体位置 */
+
+    position: absolute;
+    top: 0; 
+    left: 0;
 }
 
 article .cup-J_cup .Top-J_Top
