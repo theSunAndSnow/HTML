@@ -190,7 +190,9 @@ article .cup-J_cup .Top-J_Top
 .J_Top-center-top{
     background-color: gold;
     height: 2.2rem;
-    width: 100%;
+    width: 61.3rem;
+
+    margin-left: 1.7rem;
 }
 
 article .cup-J_cup .Top-J_Top
@@ -207,10 +209,32 @@ article .cup-J_cup .Top-J_Top
     float: left;
     /* display: inline-block; */
     height: 2.2rem;
+    width: 3.6rem;
+    margin-right: 0.4rem;
     color: #F40;
     font-size: 1.2rem;
 
     line-height: 2.2rem;
+    text-align: center;
+
+    background-color: white;
+}
+
+article .cup-J_cup .Top-J_Top
+.cup-J_cup-Top-J_Top-center 
+.J_Top-center-top ul li:hover{
+    cursor: pointer;
+    background-color: rgb(247, 226, 226);
+}
+
+article .cup-J_cup .Top-J_Top
+.cup-J_cup-Top-J_Top-center 
+.J_Top-center-top ul li:nth-child(1) {
+    background-image: linear-gradient(to right,#ff9000 0,#ff5000 100%);
+    color: #FFF;
+    font-weight: 700;
+    border-top-left-radius: 0.6rem;
+    border-top-right-radius: 0.6rem;
 }
 
 article .cup-J_cup .Top-J_Top
@@ -222,6 +246,36 @@ article .cup-J_cup .Top-J_Top
 
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
+
+    position: relative;/* 子绝父相 */
+}
+
+article .cup-J_cup .Top-J_Top
+.cup-J_cup-Top-J_Top-center 
+.J_Top-center-center .icon_search{
+    display: inline-block;
+    position: absolute;
+    left: 1.9rem;
+    top: -2.3rem;
+    color: #999;
+}
+
+article .cup-J_cup .Top-J_Top
+.cup-J_cup-Top-J_Top-center 
+.J_Top-center-center .icon_camera{
+    height: 100%;
+    width: 2.4rem;
+    position: absolute;
+    right: 10rem;
+    top: -2.3rem;
+    color: #999;
+    font-size: 2.35rem;
+}
+
+article .cup-J_cup .Top-J_Top
+.cup-J_cup-Top-J_Top-center 
+.J_Top-center-center .icon_camera:hover{
+    cursor: pointer;
 }
 
 article .cup-J_cup .Top-J_Top
@@ -238,6 +292,11 @@ article .cup-J_cup .Top-J_Top
 
     padding: 0.6rem 0;
     padding-left: 1.5rem;
+
+    /* 设置搜索栏中placeholder */
+    text-indent: 2rem;/* 设置搜索栏中placeholder文字的位置 */
+    font-size: 1.2rem;
+    color: #000;
 }
 
 article .cup-J_cup .Top-J_Top
@@ -265,8 +324,8 @@ input.button{
     font-weight: 700;
     border: none;
 
-    text-align: center;
-    padding: 0.5rem; /* 设置字体位置 */
+    text-align: center;  
+    /* padding: 2rem; 设置字体位置 */
 }
 
 article .cup-J_cup .Top-J_Top
