@@ -106,6 +106,11 @@ li div a{
 }
 
 header .header-content-right .header-content-right-content
+li div span:hover{
+    color: #F40;
+}
+
+header .header-content-right .header-content-right-content
 li div a span.icon-cart_empty {
     color: #FF4400;
     font-size: 1.4rem;
@@ -118,9 +123,14 @@ li div a span.icon-star_filled{
 }
 
 header .header-content-right .header-content-right-content
+li div a:hover{
+    color: #F40;
+}
+
+header .header-content-right .header-content-right-content
 li div a span.icon-List{
-    color: #FF4400;
-    font-size: 1.4rem;
+    color: #F40;
+    font-size: 1rem;
 }
 /************************头部-end*****************************/
 
