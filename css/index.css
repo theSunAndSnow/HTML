@@ -430,4 +430,12 @@ article .cup-J_cup .Top-J_Top a.taobao_index img{
     bottom: 0.4rem;
     left: 0.7rem;
 }
+
+article .nav_Title{
+    background-color: gold;
+    width: 119rem;
+    height: 3rem;
+
+    margin: 0 auto;
+}
 /************************身体-end*****************************/
