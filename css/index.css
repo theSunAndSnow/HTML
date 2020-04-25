@@ -157,6 +157,7 @@ article .cup-J_cup .Top-J_Top {
     width: 119rem;
     height: 8.8rem;
     margin: 0 auto;
+    margin-top: 2.4rem;
     background-color: green;
 
     line-height: 8.8rem;
@@ -438,4 +439,117 @@ article .nav_Title{
 
     margin: 0 auto;
 }
+
+article .nav_Title h2{
+
+    background-color: #ff5000;
+
+    float: left;
+    width: 19rem;
+    height: 100%;
+
+    text-align: center;
+    line-height: 3rem;
+
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+article .nav_Title ul{
+    background-color: green;
+    display: inline-block;
+    
+    height: 100%;
+    line-height: 3rem;
+}
+
+/* 注意 ul 同级的 h2 标签为第 1 个 */
+article .nav_Title ul:nth-child(2){
+    width: 22.5rem;
+}
+
+article .nav_Title ul:nth-child(3){
+    width: 36.7rem;
+}
+article .nav_Title ul:nth-child(4){
+    width: 24.3rem;
+}
+
+article .nav_Title ul li{
+    background-color: red;
+    float: left;
+
+    height: 100%;
+
+    font-size: 1.6rem;
+    font-weight: 700;
+
+    text-align: center;
+    line-height: 3rem;
+}
+
+article .nav_Title ul li a{
+    color: #fff;
+}
+
+article .nav_Title ul.nav_left li{
+    margin: 0 0.3rem;
+    padding: 0 0.4rem;
+
+    position: relative;
+}
+
+article .nav_Title ul.nav_left li:nth-child(1){
+    width: 5.2rem;
+}
+
+article .nav_Title ul.nav_left li:nth-child(2){
+    width: 6.9rem;
+}
+
+article .nav_Title ul.nav_left li:nth-child(3){
+    width: 7.8rem;
+}
+
+article .nav_Title ul.nav_center li{
+    margin-left: 0.7rem;
+}
+
+article .nav_Title ul.nav_center li:nth-child(1){
+}
+
+article .nav_Title ul.nav_center li:nth-child(2){
+    width: 5.5rem;
+}
+
+article .nav_Title ul.nav_center li:nth-child(3){
+    width: 5.5rem;
+}
+
+article .nav_Title ul.nav_center li:nth-child(4){
+    width: 7rem;
+}
+
+article .nav_Title ul.nav_center li:nth-child(5){
+    width: 7rem;
+}
+
+article .nav_Title ul.nav_center li:nth-child(6){
+    width: 7rem;
+}
+
+article .nav_Title ul.nav_center li a{
+    font-size: 1.4rem;
+}
+
+article .nav_Title ul.nav_right li{
+    margin-left: 0.7rem;
+}
+
+article .nav_Title ul.nav_right li a{
+    margin: 0 0.5rem;
+    font-size: 1.4rem;
+}
+
+
 /************************身体-end*****************************/
