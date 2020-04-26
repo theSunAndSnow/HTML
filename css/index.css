@@ -551,5 +551,21 @@ article .nav_Title ul.nav_right li a{
     font-size: 1.4rem;
 }
 
+article .screenouter{
+    background-color: purple;
+
+    width: 119rem;
+    height: 52.2rem;
+    margin: 0 auto;
+}
+
 
 /************************身体-end*****************************/
+
+/************************尾部-start*****************************/
+
+footer {
+    margin-bottom: 5rem;
+}
+
+/************************尾部-end*****************************/
