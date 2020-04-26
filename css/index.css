@@ -16,6 +16,7 @@ a {
 body {
     font-size: 1.6rem;
     margin: 0;
+    font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
 }
 
 
@@ -147,57 +148,74 @@ article .banner-wrap a img{
     height: 100%;
 }
 
-article .cup-J_cup{
-    width: 100%;
+.J_cup {
+    background-color: #fff;
+
+    min-width: 122rem;
     height: 8.8rem;
-    background-color: red;
+
+    padding: 0 3%;
 }
 
-article .cup-J_cup .Top-J_Top {
-    width: 119rem;
-    height: 8.8rem;
-    margin: 0 auto;
-    margin-top: 2.4rem;
+.J_cup .J_cup-main{
     background-color: green;
-
-    line-height: 8.8rem;
-}
-
-article .cup-J_cup .Top-J_Top .Top-J_Top-left{
-    background-color: skyblue;
-    width: 19rem;
-    height: 8.8rem;
-    text-align: center;
+    width: 100%;
     float: left;
+    height: 8.8rem;
 
-    line-height: 8.8rem;
+    margin: 0 auto;
 }
 
-article .cup-J_cup .Top-J_Top .Top-J_Top-left a{
-    line-height: 8.8rem;
-    text-align: center;
+.J_cup  .J_cup-left,
+.J_cup  .J_cup-right{
+    float: left;
+    height: 8.8rem;
+
+    background-color: gold;
 }
 
-article .cup-J_cup .Top-J_Top .Top-J_Top-left a
-img {
-    vertical-align: middle;
+.J_cup .J_cup-left{
+    width: 19rem;
+
+    margin-left: -100%;
+    position: relative;
 }
 
-article .cup-J_cup .Top-J_Top a.taobao_logo img{
-    width: 14.2rem;
-    height: 5.8rem;
+.J_cup .J_cup-right{
+    width: 7.6rem;
+    position: relative;
+    margin-left: -7.6rem;
+    right: 11rem;
 }
 
-article .cup-J_cup .Top-J_Top
-.cup-J_cup-Top-J_Top-center{
+/*****************************/
+
+/* .J_cup .J_cup-main
+{
     background-color: purple;
     margin: 0 auto;
     height: 100%;
     width: 63rem;
+} */
+
+.J_cup{
+    height: 12.1rem;
+    vertical-align: middle;
 }
 
-article .cup-J_cup .Top-J_Top
-.cup-J_cup-Top-J_Top-center
+.J_cup .J_cup-center{
+    padding-top: 2.4rem;
+}
+
+.J_cup .J_cup-main .J_cup-main-main{
+    background-color: white;
+    width: 63rem;
+    position: relative;
+    margin-left: 25.8rem;
+    margin-right: 30.2rem;
+}
+
+.J_cup .J_cup-main
 .J_Top-center-top{
     background-color: gold;
     height: 2.2rem;
@@ -206,17 +224,16 @@ article .cup-J_cup .Top-J_Top
     margin-left: 1.7rem;
 }
 
-article .cup-J_cup .Top-J_Top
-.cup-J_cup-Top-J_Top-center 
-.J_Top-center-top ul{
+.J_cup .J_cup-main
+.J_Top-main-top ul{
     /* background-color: green; */
     height: 2.2rem;
     width: 100%;
+    margin-left: 1.6rem;
 }
 
-article .cup-J_cup .Top-J_Top
-.cup-J_cup-Top-J_Top-center 
-.J_Top-center-top ul li{
+.J_cup .J_cup-main
+.J_Top-main-top ul li{
     float: left;
     /* display: inline-block; */
     height: 2.2rem;
@@ -231,16 +248,14 @@ article .cup-J_cup .Top-J_Top
     background-color: white;
 }
 
-article .cup-J_cup .Top-J_Top
-.cup-J_cup-Top-J_Top-center 
-.J_Top-center-top ul li:hover{
+.J_cup .J_cup-main 
+.J_Top-main-top ul li:hover{
     cursor: pointer;
     background-color: rgb(247, 226, 226);
 }
 
-article .cup-J_cup .Top-J_Top
-.cup-J_cup-Top-J_Top-center 
-.J_Top-center-top ul li:nth-child(1) {
+.J_cup .J_cup-main
+.J_Top-main-top ul li:nth-child(1) {
     background-image: linear-gradient(to right,#ff9000 0,#ff5000 100%);
     color: #FFF;
     font-weight: 700;
@@ -248,9 +263,14 @@ article .cup-J_cup .Top-J_Top
     border-top-right-radius: 0.6rem;
 }
 
-article .cup-J_cup .Top-J_Top
-.cup-J_cup-Top-J_Top-center 
-.J_Top-center-center{
+.J_cup .J_cup-main .J_cup-main-center{
+    margin: 0 auto;
+    background-color: red;
+
+}
+
+.J_cup .J_cup-main
+.J_Top-main-center{
     height: 4rem;
     width: 63rem;
     background-color: skyblue;
@@ -261,37 +281,34 @@ article .cup-J_cup .Top-J_Top
     position: relative;/* 子绝父相 */
 }
 
-article .cup-J_cup .Top-J_Top
-.cup-J_cup-Top-J_Top-center 
-.J_Top-center-center .icon_search{
+.J_cup .J_cup-main
+.J_Top-main-center .icon_search{
     display: inline-block;
     position: absolute;
-    left: 1.9rem;
-    top: -2.3rem;
+    left: 1.4rem;
+    top: 0.9rem;
     color: #999;
+    font-size: 1.6rem;
 }
 
-article .cup-J_cup .Top-J_Top
-.cup-J_cup-Top-J_Top-center 
-.J_Top-center-center .icon_camera{
+.J_cup .J_cup-main 
+.J_Top-main-center .icon_camera{
     height: 100%;
     width: 2.4rem;
     position: absolute;
-    right: 10rem;
-    top: -2.3rem;
+    right: 9.2rem;
+    top: 0.3rem;
     color: #999;
     font-size: 2.35rem;
 }
 
-article .cup-J_cup .Top-J_Top
-.cup-J_cup-Top-J_Top-center 
-.J_Top-center-center .icon_camera:hover{
+.J_cup .J_cup-main
+.J_Top-main-center .icon_camera:hover{
     cursor: pointer;
 }
 
-article .cup-J_cup .Top-J_Top
-.cup-J_cup-Top-J_Top-center form
-.J_Top-center-center input{
+.J_cup .J_cup-main form
+.J_Top-main-center input{
     width: 55.6rem;
     height: 100%;
     float: left;
@@ -301,19 +318,18 @@ article .cup-J_cup .Top-J_Top
     border: 0.2rem solid #ff5000;
     border-right-color: #ff9000;
 
-    padding: 0.6rem 0;
-    padding-left: 1.5rem;
+    /* padding: 0.6rem 0;
+    padding-left: 1rem; */
+    padding-left: 1rem;
 
     /* 设置搜索栏中placeholder */
-    text-indent: 2rem;/* 设置搜索栏中placeholder文字的位置 */
     font-size: 1.2rem;
     color: #000;
 }
 
-article .cup-J_cup .Top-J_Top
-.cup-J_cup-Top-J_Top-center 
-.J_Top-center-center 
-.J_Top-center-center-right{
+.J_cup .J_cup-main
+.J_Top-main-center 
+.J_Top-main-center-right{
     background-color: white;
     height: 100%;
     width: 7.4rem;
@@ -321,9 +337,8 @@ article .cup-J_cup .Top-J_Top
     position: relative;
 }
 
-article .cup-J_cup .Top-J_Top
-.cup-J_cup-Top-J_Top-center 
-.J_Top-center-center .J_Top-center-center-right
+.J_cup .J_cup-main
+.J_Top-main-center .J_Top-main-center-right
 .button{
     background-color: #FF4200;
 
@@ -332,9 +347,10 @@ article .cup-J_cup .Top-J_Top
 
     border-radius: 0 3.7rem 3.7rem 0;
     width: 7.4rem;
-    height: 4rem;
+    height: 4.0rem;
 
     color: #fff;
+    font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
     font-size: 1.8rem;
     font-weight: 700;
     border: none;
@@ -346,23 +362,20 @@ article .cup-J_cup .Top-J_Top
     left: 0;
 }
 
-article .cup-J_cup .Top-J_Top
-.cup-J_cup-Top-J_Top-center 
-.J_Top-center-center .J_Top-center-center-right
+.J_cup .J_cup-main
+.J_Top-main-center .J_Top-main-center-right
 input.button:hover{
     cursor: pointer;
 }
 
-article .cup-J_cup .Top-J_Top
-.cup-J_cup-Top-J_Top-center
-.J_Top-center-buttom {
+.J_cup .J_cup-main
+.J_Top-main-buttom {
     width: 100%;
     height:2.5rem;
 }
 
-article .cup-J_cup .Top-J_Top
-.cup-J_cup-Top-J_Top-center
-.J_Top-center-buttom a{
+.J_cup .J_cup-main
+.J_Top-main-buttom a{
     height: 2.5rem;
     font-size: 1.2rem;
     /* display: inline-block; */
@@ -374,63 +387,56 @@ article .cup-J_cup .Top-J_Top
     margin-right: 0.5rem;
 }
 
-article .cup-J_cup .Top-J_Top
-.cup-J_cup-Top-J_Top-center
-.J_Top-center-buttom a:nth-child(3) {
+.J_cup .J_cup-main
+.J_Top-main-buttom a:nth-child(3) {
     color: #f40;
 }
 
-article .cup-J_cup .Top-J_Top
-.cup-J_cup-Top-J_Top-center
-.J_Top-center-buttom a:hover{
+.J_cup .J_cup-main
+.J_Top-main-buttom a:hover{
     color: #F40;
 }
 
-article .cup-J_cup .Top-J_Top .Top-J_Top-right{
-    background-color: skyblue;
-    height: 8.8rem;
-    width: 7.6rem;
-    float: right;
-    position: relative;
-    top: -8.8rem;
-    right: 7%;
-    text-align: center;/* 让子盒子行内标签水平居中 */
-
-
-    border: 0.1rem solid #eee;
-}
-
-article .cup-J_cup .Top-J_Top .Top-J_Top-right a{
+.J_cup-left a{
+    line-height: 8.8rem;
     text-align: center;
 }
 
-article .cup-J_cup .Top-J_Top .Top-J_Top-right a span.top{
-    color: #ff5000;
-    font-size: 1.2rem;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-
-    position: absolute;
-    top: -35%;
-    left: 20%;
+.J_cup-left .taobao_logo img{
+    width: 14.2rem;
+    height: 5.8rem;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 2.2rem;
 }
 
-article .cup-J_cup .Top-J_Top .Top-J_Top-right
+.J_cup-right{
+    background-color: skyblue;
+    text-align: center;/* 让子盒子行内标签水平居中 */
+    border: 0.1rem solid #eee;
+}
+
+.J_cup-right a{
+    text-align: center;
+}
+
+.J_cup-right a span.top{
+    color: #ff5000;
+    font-size: 1.2rem;
+    background-color: white;
+}
+
+.J_cup-right
 a span.top:hover{
     cursor: pointer;
 }
 
-article .cup-J_cup .Top-J_Top a.taobao_index img{
+.J_cup-right a.taobao_index img{
     width: 6.2rem;
     height: 6.2rem;
-
-    position: absolute;
-    bottom: 0.4rem;
-    left: 0.7rem;
 }
+
 
 article .nav_Title{
     background-color: gold;
@@ -515,8 +521,8 @@ article .nav_Title ul.nav_center li{
     margin-left: 0.7rem;
 }
 
-article .nav_Title ul.nav_center li:nth-child(1){
-}
+/* article .nav_Title ul.nav_center li:nth-child(1){
+} */
 
 article .nav_Title ul.nav_center li:nth-child(2){
     width: 5.5rem;
@@ -535,16 +541,22 @@ article .nav_Title ul.nav_center li:nth-child(5){
 }
 
 article .nav_Title ul.nav_center li:nth-child(6){
-    width: 7rem;
+    width: 6rem;
 }
 
 article .nav_Title ul.nav_center li a{
     font-size: 1.4rem;
 }
 
+article .nav_Title ul.nav_right{
+    width: 24.3rem;
+}
+
 article .nav_Title ul.nav_right li{
     margin-left: 0.7rem;
 }
+
+article .nav_Title ul.nav_right li
 
 article .nav_Title ul.nav_right li a{
     margin: 0 0.5rem;
