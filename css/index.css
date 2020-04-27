@@ -571,7 +571,60 @@ article .screenouter{
     margin: 0 auto;
 }
 
+article .screenouter .screenouter-main{
+    background-color: skyblue;
+    float: left;
+}
 
+article .screenouter .screenouter-main
+.screenouter-main-left{
+    background-color: green;
+    float: left;
+
+    width: 19rem;
+    height: 52.2rem;
+}
+
+article .screenouter .screenouter-main
+.screenouter-main-left ul{
+    padding-top: 0.5rem;
+    padding-bottom: 0.3rem; 
+    border: 0.1rem solid #ff5000;
+    height: 52.1rem;
+}
+
+article .screenouter .screenouter-main
+.screenouter-main-left ul li{
+    background-color: gold;
+
+    height: 3.2rem;
+    padding-left: 2.5rem;
+    padding-right: 1.9rem;
+    line-height: 3.2rem;
+}
+
+article .screenouter .screenouter-main
+.screenouter-main-left ul li a{
+    color: #666;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+article .screenouter .screenouter-right{
+    background-color: gold;
+}
+
+article .screenouter .screenouter-main-center{
+    position: relative;
+}
+
+article .screenouter .screenouter-main-center
+.screenouter-main-center-right{
+    background-color: skyblue;
+    float: right;
+    width: 16rem;
+    height: 51.2rem;
+}
 /************************身体-end*****************************/
 
 /************************尾部-start*****************************/
