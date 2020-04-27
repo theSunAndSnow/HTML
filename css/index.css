@@ -601,6 +601,12 @@ article .screenouter .screenouter-main
     padding-left: 2.5rem;
     padding-right: 1.9rem;
     line-height: 3.2rem;
+    color: #666;
+}
+
+article .screenouter .screenouter-main
+.screenouter-main-left ul li:hover{
+    background-color: rgb(245, 159, 110);
 }
 
 article .screenouter .screenouter-main
@@ -608,6 +614,12 @@ article .screenouter .screenouter-main
     color: #666;
     font-size: 1.4rem;
     font-weight: 400;
+}
+
+article .screenouter .screenouter-main
+.screenouter-main-left ul li a:hover{
+    color: #F40;
+    text-decoration: underline;
 }
 
 article .screenouter .screenouter-right{
