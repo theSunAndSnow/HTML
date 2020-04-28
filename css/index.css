@@ -325,6 +325,8 @@ article .banner-wrap a img{
     /* 设置搜索栏中placeholder */
     font-size: 1.2rem;
     color: #000;
+
+    outline: none;
 }
 
 .J_cup .J_cup-main
