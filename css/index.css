@@ -571,11 +571,17 @@ article .screenouter{
     width: 119rem;
     height: 52.2rem;
     margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
 }
 
 article .screenouter .screenouter-main{
     background-color: skyblue;
     float: left;
+
+    width: 90rem;
+    height: 52.2rem;
 }
 
 article .screenouter .screenouter-main
@@ -585,6 +591,8 @@ article .screenouter .screenouter-main
 
     width: 19rem;
     height: 52.2rem;
+
+    position: relative;
 }
 
 article .screenouter .screenouter-main
@@ -629,15 +637,61 @@ article .screenouter .screenouter-right{
 }
 
 article .screenouter .screenouter-main-center{
-    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+article .screenouter .screenouter-main-center
+.screenouter-main-center-top{
+    background-color: red;
+
+    width: 52rem;
+
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+article .screenouter .screenouter-main-center
+.screenouter-main-center-bottom{
+    background-color: rgb(93, 108, 192);
+
+    width:52rem;
+    height: 23rem;
+
+    margin-top: 0.1rem;
+
+    /* background-color: #fff; */
+}
+
+article .screenouter .screenouter-main-center
+.screenouter-main-center-right-bottom h5{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #a1a1a1;
+
+    padding-top: 0.1rem;
+    line-height: 2.4rem;
+
+    background: #f1f1f1;
 }
 
 article .screenouter .screenouter-main-center
 .screenouter-main-center-right{
-    background-color: skyblue;
+    background-color: blue;
     float: right;
     width: 16rem;
     height: 51.2rem;
+
+    margin-top: 1rem;
+    margin-left: 1rem;
+
+    background-color: #fff;
+}
+
+article .screenouter .screenouter-right{
+    background-color: green;
+    width:29rem;
+    height: 52.2rem;
 }
 /************************身体-end*****************************/
 
