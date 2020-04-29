@@ -765,6 +765,8 @@ article .screenouter .screenouter-right
     border-radius: 0.9rem;
 
     background-color: #ffe4db;
+
+    position: relative; /* 子绝父相 */
 }
 
 article .screenouter .screenouter-right
@@ -775,19 +777,76 @@ article .screenouter .screenouter-right
 }
 
 article .screenouter .screenouter-right
-.screenouter-right-member
-.screenouter-right-member-main p a span
-.icona{
-    background-image: url(images/sprite.png);
+.screenouter-right-member-main p a span.icona{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    /* background-color: purple; */
+    background-image: url(../images/sprite.png);
+    background-position: 0 -52.6rem;
+    width: 1.6rem;
+    height: 1.6rem;
+
 }
 
-article .screenouter .screenouter-right
-.screenouter-right-member
-.screenouter-right-member-main p a span
-.iconb{
-    background-image: url(images/sprite.png);
+.screenouter-right-member-main p a span.iconb{
+    display: block;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 1.6rem;
+    height: 1.6rem;
+    background-image: url(../images/sprite.png);
+    background-position: 0 -57.1rem;
 }
 
+.screenouter-right-member-main-button{
+    /* background-color: purple; */
+    height: 4rem;
+    margin-top: 0.2rem;
+    padding-left: 1.5rem;
+}
+
+.screenouter-right-member-main-button
+.screenouter-right-member-main-button-main{
+    height: 2.5rem;
+    margin-top: 0.8rem;
+    /* line-height: 2.5rem; */
+    padding-top: 0.9rem;
+}
+
+.screenouter-right-member-main-button
+.screenouter-right-member-main-button-main a{
+    display: inline-block;
+    height:2.5rem;
+    text-align: center;
+    line-height: 2.5rem;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 700;
+
+    background-image: linear-gradient(to right,#ff5000 0,#ff6f06 100%);
+    border-radius: 0.4rem;
+
+    margin-right: 0.7rem;
+}
+
+.screenouter-right-member-main-button
+.screenouter-right-member-main-button-main a:nth-child(1){
+    width: 9.2rem;
+    margin-right: 0.7rem;
+}
+
+.screenouter-right-member-main-button
+.screenouter-right-member-main-button-main a:nth-child(2){
+    width: 7.5rem;
+}
+
+.screenouter-right-member-main-button
+.screenouter-right-member-main-button-main a:nth-child(3){
+    width: 7.5rem;
+}
 /************************身体-end*****************************/
 
 /************************尾部-start*****************************/
