@@ -161,7 +161,7 @@ article .banner-wrap a img{
 }
 
 .J_cup .J_cup-main{
-    background-color: green;
+    /* background-color: green; */
     width: 100%;
     float: left;
     height: 8.8rem;
@@ -174,7 +174,7 @@ article .banner-wrap a img{
     float: left;
     height: 8.8rem;
 
-    background-color: gold;
+    /* background-color: gold; */
 }
 
 .J_cup .J_cup-left{
@@ -220,7 +220,7 @@ article .banner-wrap a img{
 
 .J_cup .J_cup-main
 .J_Top-center-top{
-    background-color: gold;
+    /* background-color: gold; */
     height: 2.2rem;
     width: 61.3rem;
 
@@ -268,7 +268,7 @@ article .banner-wrap a img{
 
 .J_cup .J_cup-main .J_cup-main-center{
     margin: 0 auto;
-    background-color: red;
+    /* background-color: red; */
 
 }
 
@@ -276,7 +276,7 @@ article .banner-wrap a img{
 .J_Top-main-center{
     height: 4rem;
     width: 63rem;
-    background-color: skyblue;
+    /* background-color: skyblue; */
 
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
@@ -417,7 +417,7 @@ input.button:hover{
 }
 
 .J_cup-right{
-    background-color: skyblue;
+    /* background-color: skyblue; */
     text-align: center;/* 让子盒子行内标签水平居中 */
     border: 0.1rem solid #eee;
 }
@@ -444,11 +444,13 @@ a span.top:hover{
 
 
 article .nav_Title{
-    background-color: gold;
+    /* background-color: gold; */
     width: 119rem;
     height: 3rem;
 
     margin: 0 auto;
+    background-image: linear-gradient(to right,#ff9000 0,#ff5000 100%);
+
 }
 
 article .nav_Title h2{
@@ -467,10 +469,10 @@ article .nav_Title h2{
 }
 
 article .nav_Title ul{
-    background-color: green;
+    /* background-color: green; */
     display: inline-block;
     
-    height: 100%;
+    height: 3rem;
     line-height: 3rem;
 }
 
@@ -487,7 +489,7 @@ article .nav_Title ul:nth-child(4){
 }
 
 article .nav_Title ul li{
-    background-color: red;
+    /* background-color: red; */
     float: left;
 
     height: 100%;
@@ -569,7 +571,7 @@ article .nav_Title ul.nav_right li a{
 }
 
 article .screenouter{
-    background-color: purple;
+    /* background-color: purple; */
 
     width: 119rem;
     height: 52.2rem;
@@ -580,7 +582,7 @@ article .screenouter{
 }
 
 article .screenouter .screenouter-main{
-    background-color: skyblue;
+    /* background-color: skyblue; */
     float: left;
 
     width: 90rem;
@@ -589,7 +591,7 @@ article .screenouter .screenouter-main{
 
 article .screenouter .screenouter-main
 .screenouter-main-left{
-    background-color: green;
+    /* background-color: green; */
     float: left;
 
     width: 19rem;
@@ -608,7 +610,7 @@ article .screenouter .screenouter-main
 
 article .screenouter .screenouter-main
 .screenouter-main-left ul li{
-    background-color: gold;
+    /* background-color: gold; */
 
     height: 3.2rem;
     padding-left: 2.5rem;
