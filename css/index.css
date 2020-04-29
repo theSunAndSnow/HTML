@@ -150,11 +150,14 @@ article .banner-wrap a img{
 
 .J_cup {
     background-color: #fff;
-
-    min-width: 122rem;
+    min-width: 110rem;
+    max-width: 119rem;
     height: 8.8rem;
 
-    padding: 0 3%;
+    /* padding: 0 3%; */
+    margin: 0 auto
+
+    /* display: inline-block; */
 }
 
 .J_cup .J_cup-main{
