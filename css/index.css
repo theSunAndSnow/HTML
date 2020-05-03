@@ -996,6 +996,25 @@ ul.screenouter-right-notice-content-main li a{
     background-position: 0 -30.8rem;
 }
 
+.apps{
+    height: 7.6rem;
+}
+
+.apps h3{
+    font-size: 1.4rem;
+    height: 3rem;
+    line-height: 3rem;
+    padding-left: 1.4rem;
+
+    position: relative;
+}
+
+.apps h3 a{
+    position: absolute;
+    right: 1rem;
+    font-size: 1.2rem;
+    color: #3c3c3c;
+}
 /************************身体-end*****************************/
 
 /************************尾部-start*****************************/
