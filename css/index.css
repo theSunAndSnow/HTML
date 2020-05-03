@@ -922,6 +922,80 @@ ul.screenouter-right-notice-content-main li a{
     color: #3c3c3c;
 }
 
+.conve-top .conve-top-list {
+    background-color: green;
+    width: 29.4rem;
+}
+
+.conve-top .conve-top-list{
+    border-top: 0.1rem solid #f4f4f4;
+}
+
+.conve-top-list li{
+    height: 7.5rem;
+    width: 7.3rem;
+    display: inline-block;
+    float: left;
+    border: 0.1rem solid #f4f4f4;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    overflow: visible;
+    text-align: center;
+}
+
+.conve-top-list li a span{
+    background-color: purple;
+    display: inline-block;
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-top: 1.1rem;
+}
+
+.conve-top-list li a p{
+    color: #333;
+    line-height: 2.4rem;
+}
+
+.conve-top-list .conve-item-1 a span{
+    background-image: url(/images/sprite.png);
+    background-position: 0 0;
+}
+
+.conve-top-list .conve-item-2 a span{
+    background-image: url(/images/sprite.png);
+    background-position: 0 -8.7rem;
+}
+
+.conve-top-list .conve-item-3 a span{
+    background-image: url(/images/sprite.png);
+    background-position: 0 -4.4rem;
+}
+
+.conve-top-list .conve-item-4 a span{
+    background-image: url(/images/sprite.png);
+    background-position: 0 -13.2rem;
+}
+
+.conve-top-list .conve-item-5 a span{
+    background-image: url(/images/sprite.png);
+    background-position: 0 -17.6rem;
+}
+
+.conve-top-list .conve-item-6 a span{
+    background-image: url(/images/sprite.png);
+    background-position: 0 -22rem;
+}
+
+.conve-top-list .conve-item-7 a span{
+    background-image: url(/images/sprite.png);
+    background-position: 0 -26.4rem;
+}
+
+.conve-top-list .conve-item-8 a span{
+    background-image: url(/images/sprite.png);
+    background-position: 0 -30.8rem;
+}
+
 /************************身体-end*****************************/
 
 /************************尾部-start*****************************/
