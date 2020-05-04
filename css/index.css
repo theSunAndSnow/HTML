@@ -175,6 +175,19 @@ article .banner-wrap a img{
     height: 8.8rem;
 
     background-color: gold;
+
+    position: relative; /* 子绝父相 */
+}
+
+.J_cup  .J_cup-right .close_icon {
+    background-color: black;
+    position: absolute;
+    top: -0.1rem;
+    left: -1.4rem;
+    height: 1.4rem;
+    width: 1.4rem;
+    border: 0.1rem solid #eee;
+    color: #ddd;
 }
 
 .J_cup .J_cup-left{
