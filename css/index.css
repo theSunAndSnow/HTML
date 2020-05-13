@@ -926,6 +926,10 @@ ul.screenouter-right-notice-content-main li a{
     height: 15.5rem;
 }
 
+.screenouter-right {
+    position: relative;
+}
+
 .conve-top .conve-top-list {
     background-color: green;
     width: 29.4rem;
@@ -934,6 +938,162 @@ ul.screenouter-right-notice-content-main li a{
 .conve-top .conve-top-list{
     border-top: 0.1rem solid #f4f4f4;
 }
+
+/*************************** 选项卡功能-start **************************/
+.selected {
+    border: 1px solid rgb(204, 54, 0) !important;
+    border-bottom: none !important; /* 涉及到优先级的问题 */
+}
+
+.unselected {
+    border: none;
+}
+
+.changingDomain {
+    /* display: none; */
+    padding: 0.1rem;
+    width: 28.8rem;
+    height: 15.6rem;
+    position: absolute;
+    bottom: 1.75rem;
+    background-color: #fff;
+    z-index: 999;
+}
+
+.selected-content {
+    
+    position: absolute;
+}
+
+.telephoneCharge {
+    padding: 0 1.5rem;
+    width: 27.8rem;
+}
+
+
+.telephoneCharge-top ul {
+    height: 2.6rem;
+    line-height: 2.6rem;
+}
+
+.telephoneCharge-top ul li{
+    float: left;
+    padding: 0.3rem 1rem;
+}
+
+.telephoneCharge-top ul li a {
+    color: #666;
+}
+
+.telephoneCharge-top ul li a:hover {
+    color: #FF4300;
+}
+
+.content-chargeTelephoneFees {
+    /* display: none; */
+    margin-top: 0.8rem;
+}
+
+
+.telephoneCharge-content-bottom-sellPrice {
+    color: #666;
+}
+
+.telephoneCharge-content-bottom-price {
+    display: inline-block;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+}
+
+.telephoneCharge-content-bottom-price span span.moneyIcon {
+    color: #999;
+}
+
+.telephoneCharge-content-bottom-price span strong {
+    color: #f60;
+}
+
+.telephoneCharge-content-pay {
+    margin-bottom: 0.6rem;
+    height: 2.7rem;
+}
+
+.telephone_inputDiv {
+    height: 2.6rem;
+    width: 18.8rem;
+    border: 0.1rem solid #6c6c6c;
+    line-height: 2.6rem;
+}
+
+#telephone_inputTelephone {
+    padding: 0.4rem 2rem 0.4rem 0.3rem;
+    width: 16.5rem;
+    height: 1.8rem;
+    border: 0;
+    text-indent: 0.2rem;
+    outline: none;
+    font-family: verdana;
+    font-size: 1.2rem;
+}
+
+.conve-icon-phone {
+    background-image: url("../images/T1gcVFFcRcXXbffaj4-200-230.png");
+    background-position: -2.4rem 0.5rem;
+    height: 2.6rem;
+    width: 2rem;
+    position: absolute;
+    margin-left: 0rem;
+    top: 3.4rem;
+    float: left;
+    line-height: 2.4rem;
+    cursor: pointer;
+}
+
+.telephone_inputDiv:last-child {
+    border-top: none;
+}
+
+#telephone_inputMoney {
+    border: none;
+    font-size: 100%;
+    text-indent: 0.5rem;
+    outline: none;
+    height: 2.4rem;
+    line-height: 2.6rem;
+}
+
+span.conve-icon-down {
+    background-image: url("../images/T1gcVFFcRcXXbffaj4-200-230.png");
+    background-position: -2.4rem -2.1rem;
+    height: 2.6rem;
+    width: 2rem;
+    float: left;
+    position: absolute;
+    right: 7.7rem;
+    margin-left: -2rem;
+    cursor: pointer;
+}
+
+
+
+
+/* TODO: 这里 line-height 不是2.7rem 却能达到居中效果 */
+.telephoneCharge-content-pay a {
+    display: inline-block;
+    height: 2.7rem;
+    line-height: 2.1rem;
+    background-color: #f40;
+    color: #fff;
+    font-weight: 700;
+    margin: 0 1rem 0 0;
+    padding: 0.3rem 1rem;
+    border-radius: 0.2rem;
+    vertical-align: top;
+}
+
+
+
+/*************************** 选项卡功能-end ***************************/
 
 .conve-top-list li{
     height: 7.5rem;
